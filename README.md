@@ -20,11 +20,11 @@ A Spring Boot-based Library Management System that allows users to manage books,
 - **Spring Boot**
 
 ### **Clone the Repository**
-```sh
-git clone https://github.com/your-repo/library-management.git
+
+git clone 
 cd library-management
 
-API Endpoints
+### API Endpoints
 Book Management
 Method	         Endpoint	                            Description
 POST	            /books	                            Add a new book
@@ -36,14 +36,15 @@ AI Insights
 Method	         Endpoint	                            Description
 GET	            /books/{id}/ai-insights	              Get AI-generated insights for a book
 
-###Swagger is enabled for easy API testing.
+
+###  Swagger is enabled for easy API testing.
 
 Open http://localhost:8080/swagger-ui.html
 
-###Run Tests
+### Run Tests
 mvn test
 
-###Technologies Used
+### Technologies Used
   Spring Boot 3.3.0
   Spring Data JPA
   Spring WebFlux
@@ -53,3 +54,5 @@ mvn test
   Maven
   JUnit 5 for Testing
 
+### Open API Key :
+OpenAi.API.Key = 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
