@@ -25,6 +25,7 @@ git clone
 cd library-management
 
 ### API Endpoints
+```sh
 Book Management
 Method	         Endpoint	                            Description
 POST	            /books	                            Add a new book
@@ -35,6 +36,7 @@ GET	              /books/search?title=xxx&author=yyy	Search books
 AI Insights
 Method	         Endpoint	                            Description
 GET	            /books/{id}/ai-insights	              Get AI-generated insights for a book
+```
 
 
 ###  Swagger is enabled for easy API testing.
