@@ -56,5 +56,3 @@ mvn test
   Maven
   JUnit 5 for Testing
 
-### Open API Key :
-OpenAi.API.Key = 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
